@@ -9,3 +9,5 @@ docker compose up --build
 Frontend: http://localhost:8080
 API: http://localhost:8000/projects
 Docs da API: http://localhost:8000/docs
+Status: http://localhost:8000/health
+http://localhost:8080/

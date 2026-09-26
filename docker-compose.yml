@@ -1,6 +1,6 @@
 services:
 	backend:
-		build: ./backEnd
+		build: ./backend
 		container_name: mini_ai_lab_backend
 		ports:
 			- "8000:8000"
@@ -13,7 +13,7 @@ services:
 		ports:
 			- "8080:80"
 		volumes:
-			- ./frontEnd:/usr/share/nginx/html:ro
+			- ./frontend:/usr/share/nginx/html:ro
 		depends_on:
 			- backend
 
